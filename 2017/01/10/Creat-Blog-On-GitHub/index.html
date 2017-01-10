@@ -90,7 +90,7 @@
 <meta property="og:url" content="http://yoursite.com/2017/01/10/Creat-Blog-On-GitHub/index.html">
 <meta property="og:site_name" content="Know YourSelf">
 <meta property="og:description" content="整体思想：1.GitHub作为一个托管平台，可以托管相关文件，自然也就可以托管网页；GitHub可以生成一个GitHub Page，作为浏览2.Hexo可以生成静态的html页面，采用MarkDown的标记方式，用Node.js生成的3.GitHub和Hexo两个工具，分别使用了git命令和node.js，所以需要安装相关工具（一般默认安装就可以，一路next）准备工作：1.注册github账号">
-<meta property="og:updated_time" content="2017-01-10T13:02:55.483Z">
+<meta property="og:updated_time" content="2017-01-10T13:26:58.568Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="在GitHub上搭建个人博客">
 <meta name="twitter:description" content="整体思想：1.GitHub作为一个托管平台，可以托管相关文件，自然也就可以托管网页；GitHub可以生成一个GitHub Page，作为浏览2.Hexo可以生成静态的html页面，采用MarkDown的标记方式，用Node.js生成的3.GitHub和Hexo两个工具，分别使用了git命令和node.js，所以需要安装相关工具（一般默认安装就可以，一路next）准备工作：1.注册github账号">
@@ -356,7 +356,7 @@
 <p>配置用户名和密码：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">git config --global user.name &quot;lxxxxx&quot;// 你的github用户名，非昵称</div><div class="line">git config --global user.email  &quot;sssss@qq.com&quot;// 填写你的github注册邮箱</div></pre></td></tr></table></figure></p>
 <h2 id="2-建立仓库"><a href="#2-建立仓库" class="headerlink" title="2.建立仓库"></a>2.建立仓库</h2><p>​    仓库的名字为：你的github用户名.github.io,比如你的用户名为she，那么，新建的仓库的名字为<strong>she.github.io</strong> 至此，github的账户的page配置完成</p>
 <h1 id="二、Hexo配置自己的页面"><a href="#二、Hexo配置自己的页面" class="headerlink" title="二、Hexo配置自己的页面"></a>二、Hexo配置自己的页面</h1><h2 id="1-Hexo——安装"><a href="#1-Hexo——安装" class="headerlink" title="1.Hexo——安装"></a>1.Hexo——安装</h2><p>   a.建立一个文件夹，专门用来存放Hexo的相关文件和主题，以及Blog的。</p>
-<p>   b.进入文件夹目录，此处为Blog（命令行cd  空格  文件夹路径（退回上一级目录cd ..）），执行下面的命令<br>    <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">npm install -g hexo</div><div class="line">hexo init</div></pre></td></tr></table></figure></p>
+<p>   b.进入文件夹目录，此处为Blog（命令行cd  空格  文件夹路径（退回上一级目录cd ..）），执行下面的命令<br>    ​<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">	npm install -g hexo</div><div class="line">	hexo init</div><div class="line">​</div></pre></td></tr></table></figure></p>
 <p>至此，初始化工作完成</p>
 <p>如果想查看默认的Hexo的文件，可以继续下面的命令<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">hexo g</div><div class="line">hexo s</div></pre></td></tr></table></figure></p>
 <p>浏览器进入<a href="http://localhost:4000,可以查看默认网页，可能存在端口占用的情况，请到端口下面查看详细信息。" target="_blank" rel="external">http://localhost:4000,可以查看默认网页，可能存在端口占用的情况，请到端口下面查看详细信息。</a></p>
