@@ -284,7 +284,7 @@
               
                 
                 <a class="post-title-link" href="/2017/01/11/WechatSmallDemo/" itemprop="url">
-                  WechatSmallDemo
+                  微信小程序
                 </a>
               
             
@@ -360,7 +360,7 @@
       
         
           
-            <h1 id="微信小程序"><a href="#微信小程序" class="headerlink" title="微信小程序"></a>微信小程序</h1><h2 id="整体思想："><a href="#整体思想：" class="headerlink" title="整体思想："></a>整体思想：</h2><p>   ###微信小程序，坦白讲就是把<strong>微信作为入口</strong>的<strong>Html</strong>页面！那么，需要了解的就有这么几个方面的知识：</p>
+            <h1 id="微信小程序"><a href="#微信小程序" class="headerlink" title="微信小程序"></a>微信小程序</h1><h2 id="整体思想："><a href="#整体思想：" class="headerlink" title="整体思想："></a>整体思想：</h2><p>###微信小程序，坦白讲就是把<strong>微信作为入口</strong>的<strong>Html</strong>页面！那么，需要了解的就有这么几个方面的知识：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">1、了解微信小程序的API，通过了这一步，就可以进行Html的编写</div><div class="line">2、了解Html、JavaScript、Css样式</div></pre></td></tr></table></figure>
 <p>   本文就是对微信小程序进行一个简单的介绍，实现一个简单的HelloWorld！</p>
 <h3 id="一、下载微信公众平台开发工具，如果没有AppID，可以点击无AppID"><a href="#一、下载微信公众平台开发工具，如果没有AppID，可以点击无AppID" class="headerlink" title="一、下载微信公众平台开发工具，如果没有AppID，可以点击无AppID"></a>一、下载微信公众平台开发工具，如果没有AppID，可以点击无AppID</h3><h3 id="二、微信小程序的目录结构"><a href="#二、微信小程序的目录结构" class="headerlink" title="二、微信小程序的目录结构"></a>二、微信小程序的目录结构</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">一个小程序主体部分由三个文件组成，必须放在项目的根目录，如下：</div><div class="line"></div><div class="line">文件	     必填	    作用</div><div class="line">app.js	    是	小程序逻辑（可以理解为，在本文件中，建立一个微信小程序的入口）</div><div class="line">app.json	是	小程序公共设置（建立整体小程序的界面样式、配置）</div><div class="line">app.wxss	否	小程序公共样式表（相当于整体的css文件配置）</div><div class="line">一个小程序页面由四个文件组成，分别是：</div><div class="line"></div><div class="line">文件类型	必填	 作用</div><div class="line">js	        是	页面逻辑（相当于建立一个html页面，可以设置界面相应函数）</div><div class="line">wxml	    是	页面结构（视图层View）</div><div class="line">wxss	    否	页面样式表（具体页面的css文件）</div><div class="line">json	    否	页面配置</div><div class="line"></div><div class="line">其中wxml和wxss可以通过&#123;&#123;&#125;&#125;进行关联，感觉类似大胡子的感觉</div></pre></td></tr></table></figure>
